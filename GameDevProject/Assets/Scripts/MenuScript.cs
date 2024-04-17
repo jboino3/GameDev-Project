@@ -5,9 +5,10 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class MenuScript : MonoBehaviour
 {
-    public string canvasName;
-    public Canvas canvas;
-    public Canvas instructions;
+    public Canvas maincanvas;
+    public Canvas levelcanvas;
+    public Canvas instructioncanvas;
+    
     public void QuitScene()
     {
         Application.Quit();
@@ -15,13 +16,15 @@ public class MenuScript : MonoBehaviour
 
     public void LoadInstructins()
     {
-        
-        instructions.enabled = true;
+        instructioncanvas.enabled = true;
+        maincanvas.enabled = false;
+        levelcanvas.enabled = false;
     }
     public void HideInstructins()
     {
-        
-        instructions.enabled = false;
+        instructioncanvas.enabled = false;
+        levelcanvas.enabled = true;
+        maincanvas.enabled = true;
     }
     
 
@@ -51,13 +54,13 @@ public class MenuScript : MonoBehaviour
     public void HideCanvas()
         {
             // Set the Canvas GameObject to inactive, making it invisible
-            canvas.enabled = false;
+            maincanvas.enabled = false;
         }
     
     public void ShowCanvas()
     {
         // Set the Canvas GameObject to active, making it visible
-        canvas.enabled = true;
+        maincanvas.enabled = true;
     }
 
     
