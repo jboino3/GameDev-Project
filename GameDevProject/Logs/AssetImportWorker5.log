@@ -1,0 +1,570 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16190 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/KALAN/Desktop/GameDev Project/GameDev-Project/GameDevProject
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+49941
+Successfully changed project path to: C:/Users/KALAN/Desktop/GameDev Project/GameDev-Project/GameDevProject
+C:/Users/KALAN/Desktop/GameDev Project/GameDev-Project/GameDevProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14556] Host "[IP] 100.64.4.203 [Port] 0 [Flags] 2 [Guid] 1515369728 [EditorId] 1515369728 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VNOATM0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14556] Host "[IP] 100.64.4.203 [Port] 0 [Flags] 2 [Guid] 1515369728 [EditorId] 1515369728 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VNOATM0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 49.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/KALAN/Desktop/GameDev Project/GameDev-Project/GameDevProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.3118
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.027084 seconds.
+- Loaded All Assemblies, in  0.576 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.343 seconds
+Domain Reload Profiling: 911ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (197ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (172ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (344ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (266ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.106 seconds
+Refreshing native plugins compatible for Editor in 22.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.963 seconds
+Domain Reload Profiling: 2056ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (728ms)
+		LoadAssemblies (589ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (213ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (964ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (754ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (189ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 21.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4255 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (73.4 KB). Loaded Objects now: 4693.
+Memory consumption went from 151.9 MB to 151.8 MB.
+Total: 7.749400 ms (FindLiveObjects: 0.318000 ms CreateObjectMapping: 0.217100 ms MarkObjects: 7.085000 ms  DeleteObjects: 0.128100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 630444.919692 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Detail_Spikey_01.fbx
+  artifactKey: Guid(e4b6491725218d14e8bf01fb9dabe03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Detail_Spikey_01.fbx using Guid(e4b6491725218d14e8bf01fb9dabe03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3c0181c1dff9f4bf28216f5605632c') in 0.500954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Grass_01.fbx
+  artifactKey: Guid(b26641672882e1e428e28730dac21195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Grass_01.fbx using Guid(b26641672882e1e428e28730dac21195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4bd4e11ff64e54b3dac2300740d1b8') in 0.044527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Ground_Greeble_04.fbx
+  artifactKey: Guid(ad2bcbf326b8d5840898f9ab32716702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Ground_Greeble_04.fbx using Guid(ad2bcbf326b8d5840898f9ab32716702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cfb33c4e895cd0f0023333de81a3a2') in 0.042706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Grass_03.fbx
+  artifactKey: Guid(98fff4e7fe963d34a9af05595f39d4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Grass_03.fbx using Guid(98fff4e7fe963d34a9af05595f39d4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47e5006a2d569ba769d8057fdc09f02') in 0.026490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Grass_05.fbx
+  artifactKey: Guid(0e2a74f554e97004cb9de47faa56408c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Grass_05.fbx using Guid(0e2a74f554e97004cb9de47faa56408c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c9e7ddbc3a3546f27886a51dd844ff') in 0.020480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Ground_Greeble_02.fbx
+  artifactKey: Guid(0651c92f30ac03146895e5c376aa2291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Ground_Greeble_02.fbx using Guid(0651c92f30ac03146895e5c376aa2291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497b2e0b360aa45793536e4c6f4bf4d4') in 0.032421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_LakeEdge_Corner_03.fbx
+  artifactKey: Guid(8588797f0a514054691aedf5c27ecaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_LakeEdge_Corner_03.fbx using Guid(8588797f0a514054691aedf5c27ecaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc067bde69b794067dc1e7eca324563') in 0.021419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Ground_Blob_01.fbx
+  artifactKey: Guid(6630c63432a7443418a3c89214e3af13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Ground_Blob_01.fbx using Guid(6630c63432a7443418a3c89214e3af13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194d203c05a06aacd1085193a217b3bc') in 0.019737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Floating_Crystal_02.fbx
+  artifactKey: Guid(adcd025ea71250946900341525d4314f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Floating_Crystal_02.fbx using Guid(adcd025ea71250946900341525d4314f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adbcd4c4a301471c17d6692d629bea4') in 0.021203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Floating_Rocks_Single_01.fbx
+  artifactKey: Guid(153498f0570676048b997c41ef840af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Floating_Rocks_Single_01.fbx using Guid(153498f0570676048b997c41ef840af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6deec2975dfa786eac7635c64ce7b487') in 0.019873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.733927 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Balloon_03.fbx
+  artifactKey: Guid(52094c2d3c6753240a5f600bb2945932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Balloon_03.fbx using Guid(52094c2d3c6753240a5f600bb2945932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a07c6bbf5953f4b80301a283c9b4b0') in 0.119988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Balloon_04.fbx
+  artifactKey: Guid(876f1a0e6822c704db6d0013ed2e3dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Balloon_04.fbx using Guid(876f1a0e6822c704db6d0013ed2e3dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be9a8d6dc534b2691435c33cb26fc35') in 0.018372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.162273 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Balloon_Tall_02.fbx
+  artifactKey: Guid(bec85599abf777f40928f99c16fb6880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Balloon_Tall_02.fbx using Guid(bec85599abf777f40928f99c16fb6880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82eec3541cb27cff5c1ed342d4544e96') in 0.046911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.120895 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Bulb_02.fbx
+  artifactKey: Guid(c5f7bf6b5b2deac4c99c05dafc4054fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Bulb_02.fbx using Guid(c5f7bf6b5b2deac4c99c05dafc4054fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418cef1508c6cefc5fd1059829817a0e') in 0.272934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.099351 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Cactus_03.fbx
+  artifactKey: Guid(beb6c8d8f1e1c9448879d90d55b09e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Cactus_03.fbx using Guid(beb6c8d8f1e1c9448879d90d55b09e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a47c6367c5fc9f6af584007e46a249') in 0.020045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 30.752190 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Coral_03.fbx
+  artifactKey: Guid(656aa6989524d12498d49d760f1c76a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Coral_03.fbx using Guid(656aa6989524d12498d49d760f1c76a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da2a07e2cba7d19cc700828baf470aa') in 0.042635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.009584 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Fester_01.fbx
+  artifactKey: Guid(e6343db6d51a9c14f87466af2a46fce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Fester_01.fbx using Guid(e6343db6d51a9c14f87466af2a46fce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2071b7664087e677c34df08054a8203') in 0.036150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.002514 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Fester_04.fbx
+  artifactKey: Guid(59c4c4ae5d9ba3545803e12645b52133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Fester_04.fbx using Guid(59c4c4ae5d9ba3545803e12645b52133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd07a7a0c195f9800c07921f3e12e3df') in 0.041766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.067926 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Flower_Large_Pod_02.fbx
+  artifactKey: Guid(66f94f75ddc11ee42abcab9ddc25b650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Flower_Large_Pod_02.fbx using Guid(66f94f75ddc11ee42abcab9ddc25b650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640eba7e8e0a340caee95b8f22a6a80e') in 0.169180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Grass_Flower_03.fbx
+  artifactKey: Guid(4b6a6459251c0de4a90a03d0b7950444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Grass_Flower_03.fbx using Guid(4b6a6459251c0de4a90a03d0b7950444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234c518bcf40e11f9118e1d257926cec') in 0.055526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.967270 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Large_Spiral_01.fbx
+  artifactKey: Guid(1ae19d0a486a7c649b16813acdc0a1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Large_Spiral_01.fbx using Guid(1ae19d0a486a7c649b16813acdc0a1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ca719773480e50f2934ded71ec5a70') in 0.057132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.352222 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Large_Spiral_Preset_03.fbx
+  artifactKey: Guid(c30985d4022bb5f448aa603572c9ad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Large_Spiral_Preset_03.fbx using Guid(c30985d4022bb5f448aa603572c9ad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef19577aaa4caf75cadf9e284fe768c') in 0.131598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.013043 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Mushroom_02.fbx
+  artifactKey: Guid(e473c536c0e5104488679437dc9b280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Mushroom_02.fbx using Guid(e473c536c0e5104488679437dc9b280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f40d1b3eda03353f620376c1830e921') in 0.042597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.194894 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Shrub_02.fbx
+  artifactKey: Guid(8c605b7f4b645d944a7d5eaed0e909ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Shrub_02.fbx using Guid(8c605b7f4b645d944a7d5eaed0e909ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935c89e015aa115c1d44d9c5dcaaefc4') in 0.059262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.411887 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Spikey_01.fbx
+  artifactKey: Guid(118fac514ec9a654c97665fb1da64344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Spikey_01.fbx using Guid(118fac514ec9a654c97665fb1da64344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13602cb8831dbc6cd7975cb13b10f585') in 0.247772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.020938 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Succulent_Large_02.fbx
+  artifactKey: Guid(c18414d3e0feac44eb6f705973f87b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Succulent_Large_02.fbx using Guid(c18414d3e0feac44eb6f705973f87b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f5f967682f42796bd5b27857dbfabc') in 0.025262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.853559 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Rock_Large_04.fbx
+  artifactKey: Guid(4fecad699f345a14cbf9a4a771dedc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Rock_Large_04.fbx using Guid(4fecad699f345a14cbf9a4a771dedc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9032de156a2c21f127ab319e10d420b') in 0.063937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.023517 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Rock_Spike_03.fbx
+  artifactKey: Guid(b9e4f965588369946aef45636d1ffc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Rock_Spike_03.fbx using Guid(b9e4f965588369946aef45636d1ffc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0220f489bc7205e78e86a209a51fbe0f') in 0.056552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.945392 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Skeleton_Preset_03.fbx
+  artifactKey: Guid(f6251c37057009e45a5029a7386da5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Skeleton_Preset_03.fbx using Guid(f6251c37057009e45a5029a7386da5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e02392b98a4ac0af805b8a09585c80') in 0.403784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Skeleton_Preset_Flesh_03.fbx
+  artifactKey: Guid(14ba2f16f5845c649b24f4dcaf7f0ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Skeleton_Preset_Flesh_03.fbx using Guid(14ba2f16f5845c649b24f4dcaf7f0ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96192c64684e147a762c24c6f39de49') in 0.138099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Snow_Pile_02.fbx
+  artifactKey: Guid(caea152caed18104cab6542f51ed943c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Snow_Pile_02.fbx using Guid(caea152caed18104cab6542f51ed943c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86c93c1a6b31906f0aa280276021d96') in 0.022247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Snow_Pile_03.fbx
+  artifactKey: Guid(179d1a9973bf9d54390ecaa747db1b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Snow_Pile_03.fbx using Guid(179d1a9973bf9d54390ecaa747db1b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14328bea10593c48ec77e9f0ecdc3c5c') in 0.420138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Snow_Pile_05.fbx
+  artifactKey: Guid(87ac15bde2dfe1c48a169d81b80af343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Snow_Pile_05.fbx using Guid(87ac15bde2dfe1c48a169d81b80af343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5914d9e3b22cb60c2aea09d32766aaac') in 0.054702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_FX_Skydone_Sun_01.fbx
+  artifactKey: Guid(0a471f56e2ef9fa43bd6d20620aa8982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_FX_Skydone_Sun_01.fbx using Guid(0a471f56e2ef9fa43bd6d20620aa8982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f7c49b284aa42939a6aaa8bf2e838a') in 0.067531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Generic_Ground_01.fbx
+  artifactKey: Guid(613282729797bd84c8eb4b5c42736af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Generic_Ground_01.fbx using Guid(613282729797bd84c8eb4b5c42736af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24de2ed88ece01914629db64cff7ef7') in 0.081703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Generic_Ground_Flat_01.fbx
+  artifactKey: Guid(ce19e2ae29b39a84caab64ba4be5944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Generic_Ground_Flat_01.fbx using Guid(ce19e2ae29b39a84caab64ba4be5944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8928fc751e3e60b1cb2471ec397a10') in 0.109032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Generic_CloudRing_03.fbx
+  artifactKey: Guid(e59e9d4b24f5f4b4eb72ac91cc3ce262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Generic_CloudRing_03.fbx using Guid(e59e9d4b24f5f4b4eb72ac91cc3ce262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dbf549198e368bacc04823ad3d72e3') in 0.033048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Generic_Ground_Tile_01.fbx
+  artifactKey: Guid(0b476c77987ced14784aae685637181e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Generic_Ground_Tile_01.fbx using Guid(0b476c77987ced14784aae685637181e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638cf1db3cf50095e3fe7cbf2b1de7e5') in 0.024847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 40.290252 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Generic_SkyDome_02.fbx
+  artifactKey: Guid(bb9ec43720ec8734facd20437145de90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Generic_SkyDome_02.fbx using Guid(bb9ec43720ec8734facd20437145de90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea55c938ddaf06d880ff49c04ad5661') in 0.030102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.017403 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Generic_Small_Rocks_03.fbx
+  artifactKey: Guid(ce07b62594e1e3b468ee37ef3e97ee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Generic_Small_Rocks_03.fbx using Guid(ce07b62594e1e3b468ee37ef3e97ee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb5b99ad8f1f3d25b1f8e83e6117c55') in 0.040072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.018322 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Generic_Tree_02.fbx
+  artifactKey: Guid(c1e3203917de5544b9d5dac3fedccda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Generic_Tree_02.fbx using Guid(c1e3203917de5544b9d5dac3fedccda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d80df1e612bef7fd8e508d207e60055') in 0.028629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Generic_TreeStump_01.fbx
+  artifactKey: Guid(199657912f9502d46b7ba8190ffa1ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Generic_TreeStump_01.fbx using Guid(199657912f9502d46b7ba8190ffa1ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be8d4d2a3cdb814d1d278f1524e574b') in 0.029360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Gerneric_Grass_Patch_02.fbx
+  artifactKey: Guid(7366f8b9bf5cfdb449471e0235d5c951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Gerneric_Grass_Patch_02.fbx using Guid(7366f8b9bf5cfdb449471e0235d5c951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80172173281cf899ed905557ed1bdc73') in 0.028835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.215237 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Prop_Alien_Letter_02.fbx
+  artifactKey: Guid(a09ec0b439fac9a42b5c22d2ea09f093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Prop_Alien_Letter_02.fbx using Guid(a09ec0b439fac9a42b5c22d2ea09f093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ece7d7640dd646919aaba7a784b2ff7') in 0.051495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Prop_Alien_Letter_05.fbx
+  artifactKey: Guid(3f45b72182f65f248b228f44c3570183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Prop_Alien_Letter_05.fbx using Guid(3f45b72182f65f248b228f44c3570183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e976b575b03831698fa33f5c455ec8') in 0.052806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Prop_Alien_Letter_09.fbx
+  artifactKey: Guid(b14fae78940b7f748a927739087eb1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Prop_Alien_Letter_09.fbx using Guid(b14fae78940b7f748a927739087eb1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf91d90fc3deec59bc229683b1c90ece') in 0.049946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Prop_Alien_Letter_13.fbx
+  artifactKey: Guid(c682aa21b2e06e244be51ebc36f5bc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Prop_Alien_Letter_13.fbx using Guid(c682aa21b2e06e244be51ebc36f5bc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe6fd4230378d02898424abca47c640') in 0.055270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Prop_Alien_Letter_14.fbx
+  artifactKey: Guid(ba106d593e426e64c8dbb4a6397d4040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Prop_Alien_Letter_14.fbx using Guid(ba106d593e426e64c8dbb4a6397d4040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdc38e4c3c1f11d6cc498a0cb412a47') in 0.057851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
