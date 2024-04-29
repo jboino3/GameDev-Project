@@ -29,8 +29,12 @@ public class PlayerRespawn : MonoBehaviour
     void Respawn()
     {
         // Set the player's position to the respawn point
-        transform.position = respawnPoint.position;
+        transform.position = respawnPoint.position + Vector3.up * 0.5f;
         // Reset the player's velocity
         GetComponent<Rigidbody>().velocity = Vector3.zero;
+    }
+
+    public void SetRespawn(Transform newSpawn){
+        respawnPoint = newSpawn;
     }
 }
