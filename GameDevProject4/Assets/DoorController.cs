@@ -14,7 +14,8 @@ public class DoorController : MonoBehaviour
         // Check if the collider belongs to the player
         if (other.CompareTag("Player"))
         {
-            // Load the specified scene
+           Time.timeScale = 1.0f;
+           // Load the specified scene
             SceneManager.LoadScene(sceneName);
         }
     }

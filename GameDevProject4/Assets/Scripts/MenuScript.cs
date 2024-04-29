@@ -8,7 +8,12 @@ public class MenuScript : MonoBehaviour
     public Canvas maincanvas;
     public Canvas levelcanvas;
     public Canvas instructioncanvas;
-    
+   
+   void Start() {
+            Time.timeScale = 1;
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
     public void QuitScene()
     {
         Application.Quit();

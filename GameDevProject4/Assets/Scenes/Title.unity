@@ -883,7 +883,7 @@ MonoBehaviour:
   levelImage: {fileID: 1753450716}
   lvl1: {fileID: 21300000, guid: 314416c7d97e348b081f851cc348080c, type: 3}
   lvl2: {fileID: 21300000, guid: 3ac26aae01a894351a89b3213113a52d, type: 3}
-  lvl3: {fileID: 0}
+  lvl3: {fileID: 21300000, guid: ee606e08348c2c64290bd99f8cafdee2, type: 3}
 --- !u!114 &635774308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2640,9 +2640,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 635774308}
-        m_TargetAssemblyTypeName: MenuScript, Assembly-CSharp
-        m_MethodName: Loadlevel3
+      - m_Target: {fileID: 635774307}
+        m_TargetAssemblyTypeName: MenuImage, Assembly-CSharp
+        m_MethodName: ChangeImagelvl3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
