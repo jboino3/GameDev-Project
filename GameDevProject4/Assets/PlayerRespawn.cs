@@ -9,6 +9,7 @@ public class PlayerRespawn : MonoBehaviour
 
     // Spawn object for respawning
     public Transform respawnPoint;
+    public List<FallingTiles> falling = new List<FallingTiles>(); 
 
     // Update is called once per frame
     void Update()
@@ -32,6 +33,10 @@ public class PlayerRespawn : MonoBehaviour
         transform.position = respawnPoint.position + Vector3.up * 0.5f;
         // Reset the player's velocity
         GetComponent<Rigidbody>().velocity = Vector3.zero;
+
+        foreach (FallingTiles tile in falling){
+            tile.Reset();
+        }
     }
 
     public void SetRespawn(Transform newSpawn){
