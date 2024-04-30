@@ -107,6 +107,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -389,6 +390,8 @@
 "Assets/GateController.cs"
 "Assets/KeyInteraction.cs"
 "Assets/KeySpawn.cs"
+"Assets/Laser.cs"
+"Assets/Launcher.cs"
 "Assets/LevelComplete.cs"
 "Assets/Oscillate.cs"
 "Assets/PlatformCollider.cs"
@@ -398,6 +401,7 @@
 "Assets/Scripts/MenuImage.cs"
 "Assets/Scripts/MenuScript.cs"
 "Assets/Scripts/TimerScript.cs"
+"Assets/Springboard.cs"
 "Assets/test.cs"
 "Assets/ThirdPersonCam.cs"
 "Assets/TP1.cs"

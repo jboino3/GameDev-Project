@@ -34,8 +34,12 @@ public class PlayerRespawn : MonoBehaviour
         // Reset the player's velocity
         GetComponent<Rigidbody>().velocity = Vector3.zero;
 
-        foreach (FallingTiles tile in falling){
-            tile.Reset();
+        if (falling != null){
+            foreach (FallingTiles tile in falling){
+                if (tile != null){
+                    tile.Reset();
+                }
+            }
         }
     }
 

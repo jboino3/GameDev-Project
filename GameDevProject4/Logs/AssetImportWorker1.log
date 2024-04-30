@@ -2,11 +2,11 @@ Unity Editor version:    2022.3.21f1 (bf09ca542b87)
 Branch:                  2022.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 14.2.1 (Build 23C71)
-Darwin version:          23.2.0
-Architecture:            x86_64
-Running under Rosetta:   YES
-Available memory:        8192 MB
+macOS version:           Version 14.1 (Build 23B2073)
+Darwin version:          23.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        36864 MB
 Using pre-set license
 Pro License: YES
 
@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/lukeswanson/Documents/GitHub/GameDev-Project/GameDevProject4
+/Users/konarknavare/Documents/GitHub/GameDev-Project/GameDevProject4
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54139
-Successfully changed project path to: /Users/lukeswanson/Documents/GitHub/GameDev-Project/GameDevProject4
-/Users/lukeswanson/Documents/GitHub/GameDev-Project/GameDevProject4
+55265
+Successfully changed project path to: /Users/konarknavare/Documents/GitHub/GameDev-Project/GameDevProject4
+/Users/konarknavare/Documents/GitHub/GameDev-Project/GameDevProject4
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -56,321 +56,129 @@ Successfully changed project path to: /Users/lukeswanson/Documents/GitHub/GameDe
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8704344640] Host "[IP] 192.168.1.84 [Port] 0 [Flags] 2 [Guid] 1060333774 [EditorId] 1060333774 [Version] 1048832 [Id] OSXEditor(0,Lukes-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8023629504] Host "[IP] 172.16.70.58 [Port] 0 [Flags] 2 [Guid] 328707270 [EditorId] 328707270 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8704344640] Host "[IP] 192.168.1.84 [Port] 0 [Flags] 2 [Guid] 1060333774 [EditorId] 1060333774 [Version] 1048832 [Id] OSXEditor(0,Lukes-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8023629504] Host "[IP] 172.16.70.58 [Port] 0 [Flags] 2 [Guid] 328707270 [EditorId] 328707270 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 33.30 ms, found 2 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 3.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/lukeswanson/Documents/GitHub/GameDev-Project/GameDevProject4/Assets
+[Subsystems] Discovering subsystems at path /Users/konarknavare/Documents/GitHub/GameDev-Project/GameDevProject4/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M1 (high power)
+ preferred device: Apple M3 Pro (high power)
 Metal devices available: 1
-0: Apple M1 (high power)
-Using device Apple M1 (high power)
-Initializing Metal device caps: Apple M1
+0: Apple M3 Pro (high power)
+Using device Apple M3 Pro (high power)
+Initializing Metal device caps: Apple M3 Pro
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56957
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003858 seconds.
-- Loaded All Assemblies, in  1.827 seconds
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001934 seconds.
+- Loaded All Assemblies, in  0.176 seconds
+Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.228 seconds
-Domain Reload Profiling: 5061ms
-	BeginReloadAssembly (712ms)
+- Finished resetting the current domain, in  0.138 seconds
+Domain Reload Profiling: 314ms
+	BeginReloadAssembly (38ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (11ms)
-	RebuildCommonClasses (138ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (452ms)
-	LoadAllAssembliesAndSetupDomain (489ms)
-		LoadAssemblies (702ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (84ms)
+		LoadAssemblies (38ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (475ms)
-			TypeCache.Refresh (469ms)
-				TypeCache.ScanAssembly (412ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (3234ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (74ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (138ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2816ms)
+		SetupLoadedEditorAssemblies (105ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (142ms)
-			SetLoadedEditorAssemblies (67ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (19ms)
-			ProcessInitializeOnLoadAttributes (1933ms)
-			ProcessInitializeOnLoadMethodAttributes (653ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  3.624 seconds
-Refreshing native plugins compatible for Editor in 14.79 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.394 seconds
+Refreshing native plugins compatible for Editor in 1.96 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  6.473 seconds
-Domain Reload Profiling: 10160ms
-	BeginReloadAssembly (986ms)
+- Finished resetting the current domain, in  0.487 seconds
+Domain Reload Profiling: 882ms
+	BeginReloadAssembly (63ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (118ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (147ms)
-	RebuildCommonClasses (127ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (346ms)
-	LoadAllAssembliesAndSetupDomain (2188ms)
-		LoadAssemblies (1598ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (284ms)
+		LoadAssemblies (186ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (938ms)
-			TypeCache.Refresh (682ms)
-				TypeCache.ScanAssembly (608ms)
-			ScanForSourceGeneratedMonoScriptInfo (208ms)
-			ResolveRequiredComponents (47ms)
-	FinalizeReload (6478ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (97ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (488ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (5359ms)
+		SetupLoadedEditorAssemblies (402ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (22ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (437ms)
-			ProcessInitializeOnLoadAttributes (3989ms)
-			ProcessInitializeOnLoadMethodAttributes (869ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Launching external process: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 1.49 seconds
-Refreshing native plugins compatible for Editor in 22.26 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 85 unused Assets / (141.0 KB). Loaded Objects now: 4874.
-Memory consumption went from 162.9 MB to 162.7 MB.
-Total: 218.994750 ms (FindLiveObjects: 1.603791 ms CreateObjectMapping: 0.461291 ms MarkObjects: 213.758500 ms  DeleteObjects: 2.957292 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.827 seconds
-Refreshing native plugins compatible for Editor in 7.18 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  6.450 seconds
-Domain Reload Profiling: 9280ms
-	BeginReloadAssembly (1136ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (231ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (240ms)
-	RebuildCommonClasses (142ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (189ms)
-	LoadAllAssembliesAndSetupDomain (1323ms)
-		LoadAssemblies (1690ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (53ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (45ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (6453ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4462ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (73ms)
-			SetLoadedEditorAssemblies (28ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (486ms)
-			ProcessInitializeOnLoadAttributes (3182ms)
-			ProcessInitializeOnLoadMethodAttributes (689ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (2ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Refreshing native plugins compatible for Editor in 5.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4420 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 59 unused Assets / (118.9 KB). Loaded Objects now: 4889.
-Memory consumption went from 167.3 MB to 167.1 MB.
-Total: 12.786750 ms (FindLiveObjects: 0.615208 ms CreateObjectMapping: 0.198458 ms MarkObjects: 11.552875 ms  DeleteObjects: 0.416000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.994 seconds
-Refreshing native plugins compatible for Editor in 5.37 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.596 seconds
-Domain Reload Profiling: 6594ms
-	BeginReloadAssembly (821ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (82ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (208ms)
-	RebuildCommonClasses (85ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (136ms)
-	LoadAllAssembliesAndSetupDomain (928ms)
-		LoadAssemblies (1259ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (98ms)
-			TypeCache.Refresh (42ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (4599ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3207ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (15ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (233ms)
-			ProcessInitializeOnLoadAttributes (2296ms)
-			ProcessInitializeOnLoadMethodAttributes (626ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
 			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (2ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 5.33 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4433 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 72 unused Assets / (0.7 MB). Loaded Objects now: 4904.
-Memory consumption went from 179.0 MB to 178.3 MB.
-Total: 14.063166 ms (FindLiveObjects: 0.987583 ms CreateObjectMapping: 0.203041 ms MarkObjects: 12.028542 ms  DeleteObjects: 0.840250 ms)
+Unloading 4448 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (141.1 KB). Loaded Objects now: 4887.
+Memory consumption went from 171.7 MB to 171.5 MB.
+Total: 6.632042 ms (FindLiveObjects: 0.149084 ms CreateObjectMapping: 0.047250 ms MarkObjects: 6.242625 ms  DeleteObjects: 0.192542 ms)
 
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.223 seconds
-Refreshing native plugins compatible for Editor in 12.08 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.044 seconds
-Domain Reload Profiling: 7273ms
-	BeginReloadAssembly (931ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (146ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (248ms)
-	RebuildCommonClasses (104ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (178ms)
-	LoadAllAssembliesAndSetupDomain (990ms)
-		LoadAssemblies (1316ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (62ms)
-			TypeCache.Refresh (36ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (5048ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3681ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (17ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (274ms)
-			ProcessInitializeOnLoadAttributes (2482ms)
-			ProcessInitializeOnLoadMethodAttributes (864ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (3ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (36ms)
-Refreshing native plugins compatible for Editor in 9.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4433 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 72 unused Assets / (0.7 MB). Loaded Objects now: 4919.
-Memory consumption went from 186.8 MB to 186.1 MB.
-Total: 19.852292 ms (FindLiveObjects: 0.738208 ms CreateObjectMapping: 0.374250 ms MarkObjects: 17.533417 ms  DeleteObjects: 1.203834 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -386,321 +194,269 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1021417.923741 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/PlantAlts/PolygonScifiWorlds_Mat_Plant_Basic_Blue.mat
-  artifactKey: Guid(ab1072139d3b8694d8d57c6f634fc413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/PlantAlts/PolygonScifiWorlds_Mat_Plant_Basic_Blue.mat using Guid(ab1072139d3b8694d8d57c6f634fc413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8137f070e18b954b67053b03b816bca4') in 3.349799 seconds
+  Time since last request: 808425.553811 seconds.
+  path: Assets/PolygonSciFiWorlds/Prefabs/FX/Models/FX_Bubble_Half_01.fbx
+  artifactKey: Guid(7cdc104a6298fda488e4bfe407670212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Prefabs/FX/Models/FX_Bubble_Half_01.fbx using Guid(7cdc104a6298fda488e4bfe407670212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa209ad29d5963afa17c436b0317229') in 0.148035 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 5.448082 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Signs/Sign_02.mat
-  artifactKey: Guid(de720c4ae7cfa564a98eb41f162c2fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Signs/Sign_02.mat using Guid(de720c4ae7cfa564a98eb41f162c2fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cec68fcebaac552f0451ef079f182d7') in 0.135879 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Bld_Bridge_Mining_Laser_01.fbx
+  artifactKey: Guid(5b8504ed70e0bc244832094e10454168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Bld_Bridge_Mining_Laser_01.fbx using Guid(5b8504ed70e0bc244832094e10454168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c38e43e9350e801ff30006c6f952bc') in 0.008200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Bld_Bridge_End_01.fbx
+  artifactKey: Guid(c656e9f0a6f3e314b8ded02cdd0544a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Bld_Bridge_End_01.fbx using Guid(c656e9f0a6f3e314b8ded02cdd0544a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36f8c754e2b668d51ecc312628a5b17') in 0.005772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/FX_Cylinder_01.fbx
+  artifactKey: Guid(4a8561c9ab5ff524b95e1624b126490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/FX_Cylinder_01.fbx using Guid(4a8561c9ab5ff524b95e1624b126490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bfa04e377cde536a273d433162198d') in 0.006661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Bld_Bridge_01.fbx
+  artifactKey: Guid(5c6484b362ef714498d5e9f807b467a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Bld_Bridge_01.fbx using Guid(5c6484b362ef714498d5e9f807b467a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af16e2f63c703dc6d98f278f7a5fd22') in 0.006143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Bld_Bridge_Rail_End_01.fbx
+  artifactKey: Guid(722a12f145f7b9945a4ac20055d93513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Bld_Bridge_Rail_End_01.fbx using Guid(722a12f145f7b9945a4ac20055d93513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf3f3d229f3cf911de15d408f97235f') in 0.005631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.329103 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Bld_Core_Antenna_Greeble_01.fbx
+  artifactKey: Guid(5532b82bc89a63d4a8a864f123716096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Bld_Core_Antenna_Greeble_01.fbx using Guid(5532b82bc89a63d4a8a864f123716096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844c5d7a01ff2eccfdca0500fd10ab83') in 0.006616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Bld_Core_Vent_Tunnel_01.fbx
+  artifactKey: Guid(9efc8292a01f9fc449751df8e2d0edc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Bld_Core_Vent_Tunnel_01.fbx using Guid(9efc8292a01f9fc449751df8e2d0edc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685d438ff9715086e41eccab8f8727ba') in 0.012032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Bld_Core_Vent_01.fbx
+  artifactKey: Guid(e0b399d34ef4d56449c5e44fd0fe8aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Bld_Core_Vent_01.fbx using Guid(e0b399d34ef4d56449c5e44fd0fe8aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394900447f4f4f4a6c15967422815cd6') in 0.006124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Bld_Core_Observation_Greeble_Pipe_Base_01.fbx
+  artifactKey: Guid(db82c0561a7591a4e8aa67c7f33b4929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Bld_Core_Observation_Greeble_Pipe_Base_01.fbx using Guid(db82c0561a7591a4e8aa67c7f33b4929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606b0b52a148767160ad06580201c924') in 0.005561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.433363 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/Collision/Custom/SM_Bld_Corp_Comms_01_Collision.fbx
+  artifactKey: Guid(50e45177310e07846b3f11fe88aa2993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/Collision/Custom/SM_Bld_Corp_Comms_01_Collision.fbx using Guid(50e45177310e07846b3f11fe88aa2993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3c6a5ac7fa0bc97f70b8d7ccf9a0b7') in 0.012295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Bld_Corp_Control_Tower_01.fbx
+  artifactKey: Guid(50e82a10df86f394fbf3884e53ab79ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Bld_Corp_Control_Tower_01.fbx using Guid(50e82a10df86f394fbf3884e53ab79ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8f7905cdb378dd79396133943da9f8') in 0.015208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Bld_Corp_Containment_01.fbx
+  artifactKey: Guid(4ef9a907820b8ff43a34c369d32dd11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Bld_Corp_Containment_01.fbx using Guid(4ef9a907820b8ff43a34c369d32dd11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f760f65cd25798b5c3446613539126c') in 0.020223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Bld_Corp_LandingPad_02.fbx
+  artifactKey: Guid(3910fda9fc155c04e92e0f7e4652b192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Bld_Corp_LandingPad_02.fbx using Guid(3910fda9fc155c04e92e0f7e4652b192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f265e2ec8cec1cc248d23b130a28e618') in 0.011596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/Collision/Custom/SM_Bld_Corp_Loading_Bay_01_Collision.fbx
+  artifactKey: Guid(c23cb464b47615946989afabc365974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/Collision/Custom/SM_Bld_Corp_Loading_Bay_01_Collision.fbx using Guid(c23cb464b47615946989afabc365974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa3fd6bd92621e1a396b4a2e59354ea') in 0.008292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Bld_Corp_LandingPad_01.fbx
+  artifactKey: Guid(f9fa8d8ff6aaacd4b8821f25aad8ac50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Bld_Corp_LandingPad_01.fbx using Guid(f9fa8d8ff6aaacd4b8821f25aad8ac50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852c4f7199ea4aa47d37d37869e0b529') in 0.017203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/Collision/Custom/SM_Bld_Corp_LandingPad_02_Collision.fbx
+  artifactKey: Guid(3cc4b107b1520d540843a8d1d9b8491f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/Collision/Custom/SM_Bld_Corp_LandingPad_02_Collision.fbx using Guid(3cc4b107b1520d540843a8d1d9b8491f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8f25845bc8a4334fed4985b9e7f9a5') in 0.007345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/Collision/Custom/SM_Bld_Corp_Control_Tower_01_Collision.fbx
+  artifactKey: Guid(d9bffb85d47e1a94298801accdd5d327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/Collision/Custom/SM_Bld_Corp_Control_Tower_01_Collision.fbx using Guid(d9bffb85d47e1a94298801accdd5d327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073b61de53056164aecef28e13c412e6') in 0.008662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Bld_Corp_Platform_01.fbx
+  artifactKey: Guid(3ea79825a1c74ed4584dca43d02c5ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Bld_Corp_Platform_01.fbx using Guid(3ea79825a1c74ed4584dca43d02c5ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b63afe24ac702fb7c3066eb67dd3ab') in 0.044996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 3.112460 seconds.
+  path: Packages/com.unity.ads/Editor/DevX/UXML/AdsServiceGettingStarted.uxml
+  artifactKey: Guid(36a0d3e3b68a24f33bc94a0305851df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ads/Editor/DevX/UXML/AdsServiceGettingStarted.uxml using Guid(36a0d3e3b68a24f33bc94a0305851df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dee4a2440147e92484128ad6b520983') in 0.003729 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Signs/Sign_Syntanium.mat
-  artifactKey: Guid(842214610cd6528438139fa7f0870388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Signs/Sign_Syntanium.mat using Guid(842214610cd6528438139fa7f0870388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fbb3bd1e43073f664cf083644b2074') in 0.016596 seconds
+  Time since last request: 0.466457 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Chr_Attach_Helmet_Space_02.fbx
+  artifactKey: Guid(d9eb05bcd26acf44682c99d7a94807f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Chr_Attach_Helmet_Space_02.fbx using Guid(d9eb05bcd26acf44682c99d7a94807f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59f2d5d31e934246c84bf389e0c980d') in 0.031667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Chr_Attach_Helmet_Space_04.fbx
+  artifactKey: Guid(cd1d9f232413c6a4b903fd5ed375cd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Chr_Attach_Helmet_Space_04.fbx using Guid(cd1d9f232413c6a4b903fd5ed375cd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15447a7cb68d6d461e7cd1324289ca69') in 0.018358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Chr_Attach_Helmet_Space_03.fbx
+  artifactKey: Guid(f644a34e616870d4c93d65912852e50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Chr_Attach_Helmet_Space_03.fbx using Guid(f644a34e616870d4c93d65912852e50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54e9e150a1690e780d8378e11dafdc4') in 0.018901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/PolygonSciFiWorlds/Prefabs/Characters/Attachments/SM_Chr_Attach_Helmet_Space_06.prefab
+  artifactKey: Guid(0d24c6df67739894aad0899950615c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Prefabs/Characters/Attachments/SM_Chr_Attach_Helmet_Space_06.prefab using Guid(0d24c6df67739894aad0899950615c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ccfaecea06c342fc18c43b40aeaa8c') in 0.527241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/PolygonSciFiWorlds/Prefabs/Characters/Attachments/SM_Chr_Attach_Helmet_Space_02.prefab
+  artifactKey: Guid(dcfff6c609888b84cb4ea0dbf5442821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Prefabs/Characters/Attachments/SM_Chr_Attach_Helmet_Space_02.prefab using Guid(dcfff6c609888b84cb4ea0dbf5442821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b96dd4a66ea8a3871cc62005b57f4d') in 0.063889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 1.339425 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/Collision/Convex/SM_Env_Plant_Balloon_01_Convex.asset
+  artifactKey: Guid(e6824357878a4bd4ba3a04c978f9b127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/Collision/Convex/SM_Env_Plant_Balloon_01_Convex.asset using Guid(e6824357878a4bd4ba3a04c978f9b127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48f1b9f90ee4375bd6c6788df0cf770') in 0.041493 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Signs/Sign_14.mat
-  artifactKey: Guid(b46856e439378744fab8c69dbf4ba01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Signs/Sign_14.mat using Guid(b46856e439378744fab8c69dbf4ba01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77133259c76f760804c10977ca798174') in 0.013801 seconds
+  Time since last request: 0.000077 seconds.
+  path: Assets/PolygonSciFiWorlds/Prefabs/Environments/SM_Env_Plant_Balloon_02.prefab
+  artifactKey: Guid(ca24683c49fc29d4fb26b9a1d2dc0157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Prefabs/Environments/SM_Env_Plant_Balloon_02.prefab using Guid(ca24683c49fc29d4fb26b9a1d2dc0157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eebb9f9e8e3050c0828548fb409df04') in 0.073774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Balloon_02.fbx
+  artifactKey: Guid(331fb06c690639c468caa923addc03f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Balloon_02.fbx using Guid(331fb06c690639c468caa923addc03f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc056fe3ecdcd4fd11f73892dd971f4') in 0.028268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/PolygonSciFiWorlds/Prefabs/Environments/SM_Env_Plant_Balloon_Group_01.prefab
+  artifactKey: Guid(9a5f7f4b06ed92e4499991ab4cc62026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Prefabs/Environments/SM_Env_Plant_Balloon_Group_01.prefab using Guid(9a5f7f4b06ed92e4499991ab4cc62026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674ca11ca0ca72787107cf5204631249') in 0.069571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Balloon_04.fbx
+  artifactKey: Guid(876f1a0e6822c704db6d0013ed2e3dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Balloon_04.fbx using Guid(876f1a0e6822c704db6d0013ed2e3dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a4ba153bbd6650010f68efb9b98ac3') in 0.011016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.762028 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/Collision/Convex/SM_Env_Plant_Balloon_Group_03_Convex.asset
+  artifactKey: Guid(4fd5ccc1b3d5eaf438c9ce24f1b057f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/Collision/Convex/SM_Env_Plant_Balloon_Group_03_Convex.asset using Guid(4fd5ccc1b3d5eaf438c9ce24f1b057f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a03173682b2e20a5a741d0485d7f4b') in 0.015124 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Signs/Sign_16.mat
-  artifactKey: Guid(37e150475d79fd849b86e4fd4fd2924e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Signs/Sign_16.mat using Guid(37e150475d79fd849b86e4fd4fd2924e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a66a74961600ed37bf919805a306fdb') in 0.012746 seconds
+  Time since last request: 0.000079 seconds.
+  path: Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Balloon_Tall_02.fbx
+  artifactKey: Guid(bec85599abf777f40928f99c16fb6880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Models/SM_Env_Plant_Balloon_Tall_02.fbx using Guid(bec85599abf777f40928f99c16fb6880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a8ceb19892ea063ca4ddf8dfdd8641') in 0.008041 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Signs/Sign_15.mat
-  artifactKey: Guid(d7d33c55898cf9e4d97e16cd01d9dc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Signs/Sign_15.mat using Guid(d7d33c55898cf9e4d97e16cd01d9dc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebec4744cf127dcd7d9dde1002f62a9') in 0.013518 seconds
+  Time since last request: 0.000149 seconds.
+  path: Assets/PolygonSciFiWorlds/Prefabs/Environments/SM_Env_Plant_Balloon_Tall_02.prefab
+  artifactKey: Guid(23f4c7b05a0027945a769c2e9b0ec5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Prefabs/Environments/SM_Env_Plant_Balloon_Tall_02.prefab using Guid(23f4c7b05a0027945a769c2e9b0ec5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772cea521ad7197ac401828642fcbaa0') in 0.066250 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Signs/Sign_05.mat
-  artifactKey: Guid(459674ed51483554cb16728eba922b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Signs/Sign_05.mat using Guid(459674ed51483554cb16728eba922b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3d37b5832946386052840b277cd841') in 0.012257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Signs/Sign_11.mat
-  artifactKey: Guid(8bae6fc94a5f88e4e86a16cfbb713284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Signs/Sign_11.mat using Guid(8bae6fc94a5f88e4e86a16cfbb713284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf348f72730afe408e16651f03129cb') in 0.011835 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Signs/Sign_09.mat
-  artifactKey: Guid(36d4dbcd78c61d64a820248b883d42cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Signs/Sign_09.mat using Guid(36d4dbcd78c61d64a820248b883d42cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0cf197ee6371913fa891e233767fce') in 0.013566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Signs/Sign_13.mat
-  artifactKey: Guid(575c89fbf4887cc4e881fbe8805698f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Signs/Sign_13.mat using Guid(575c89fbf4887cc4e881fbe8805698f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1744f57af4bbf600a0b731596248ea5') in 0.013579 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Signs/Sign_06.mat
-  artifactKey: Guid(b4a28cce014de3145bd0e0ede9e9b7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Signs/Sign_06.mat using Guid(b4a28cce014de3145bd0e0ede9e9b7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b7e559a6b9d19202b8c50fbcfe3439') in 0.015304 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Signs/Sign_08.mat
-  artifactKey: Guid(47c9635a1ab35554b88388d96fe8da93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Signs/Sign_08.mat using Guid(47c9635a1ab35554b88388d96fe8da93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef083fe29c6934d976e9db92683400e') in 0.016510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Signs/Sign_12.mat
-  artifactKey: Guid(021bb2ebd77511e41a3fdae291a26fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Signs/Sign_12.mat using Guid(021bb2ebd77511e41a3fdae291a26fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce028b5f85c160f5bdfce06cb4f22f1') in 0.022644 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Signs/Sign_03.mat
-  artifactKey: Guid(631bfdcb8e056c849a13201d19fb7877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Signs/Sign_03.mat using Guid(631bfdcb8e056c849a13201d19fb7877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9f293faeacb1e3e47e1f7465139d3d') in 0.021458 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Signs/Sign_07.mat
-  artifactKey: Guid(6e789902047b7814297796833205cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Signs/Sign_07.mat using Guid(6e789902047b7814297796833205cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c323c89ea1db84c9bf978987060758ac') in 0.022582 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Signs/Sign_04.mat
-  artifactKey: Guid(b5f508887eaa0414596e158a8106e540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Signs/Sign_04.mat using Guid(b5f508887eaa0414596e158a8106e540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97caf8b8bc01647f4d16c9fb3f159aae') in 0.021532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.925888 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_01_A.mat
-  artifactKey: Guid(04e71246c75bcad4bb526ab1430652ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_01_A.mat using Guid(04e71246c75bcad4bb526ab1430652ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4760a17db494df9a2994abd1276bde84') in 0.400812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_02_B.mat
-  artifactKey: Guid(b311b8b638d593e4d92b855c0ef22cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_02_B.mat using Guid(b311b8b638d593e4d92b855c0ef22cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cef20305e0e2fb60c85fa2cedb4b76') in 0.126650 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_02_A.mat
-  artifactKey: Guid(a513f125a1a39d94ab8670fd0646eba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_02_A.mat using Guid(a513f125a1a39d94ab8670fd0646eba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a86df23a69bd47aab17fc7a5681089') in 0.094745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_04_C.mat
-  artifactKey: Guid(e94c6df55c23461438121ac71f432855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_04_C.mat using Guid(e94c6df55c23461438121ac71f432855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1760dc5b2c4318b12a3b9200a374325b') in 0.097117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_03_C.mat
-  artifactKey: Guid(1c9f93ad4f2d506419154ed414311926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_03_C.mat using Guid(1c9f93ad4f2d506419154ed414311926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e2d50bff5ea5dac78d6fb03633eb3d') in 0.105136 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_04_A.mat
-  artifactKey: Guid(de6d6ab781ef19743bbdf1511c21c170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_04_A.mat using Guid(de6d6ab781ef19743bbdf1511c21c170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bef08de67214601b265de282fc9311') in 0.122183 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_02_C.mat
-  artifactKey: Guid(ae8c0f18401bbe84daf2809546dd2157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_02_C.mat using Guid(ae8c0f18401bbe84daf2809546dd2157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb78ed1ea84ee4633eeecbd8c2fcf38c') in 0.106313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_03_A.mat
-  artifactKey: Guid(b62af2e3315b8064a99e673c7ff7bae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_03_A.mat using Guid(b62af2e3315b8064a99e673c7ff7bae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fd20eae58e48f505801d0edb617d04') in 0.100768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_04_B.mat
-  artifactKey: Guid(790eff77ed84cfd49bc3ba124a1e6b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_04_B.mat using Guid(790eff77ed84cfd49bc3ba124a1e6b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3436e2dc2d9bfefe991bc2cbc606b621') in 0.100512 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_03_B.mat
-  artifactKey: Guid(d90dbc8fca21d5347bbe6442049fc7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_03_B.mat using Guid(d90dbc8fca21d5347bbe6442049fc7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e3fdc6aa64b1603b6f2f61101494c6') in 0.102953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_01_B.mat
-  artifactKey: Guid(862830cfc4d703c48a1b76279f7d7cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_01_B.mat using Guid(862830cfc4d703c48a1b76279f7d7cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f5e4051a7c2537a714244bfc8a39c0') in 0.101744 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_01_C.mat
-  artifactKey: Guid(392a167932f104748904ba15009c0b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/Alts/PolygonScifiWorlds_Mat_01_C.mat using Guid(392a167932f104748904ba15009c0b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0688d822f26d50850ca0b726839d7625') in 0.146121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 2.622505 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/FX/FX_Additive.mat
-  artifactKey: Guid(e745ab8d859d17441ac06702807cdb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/FX/FX_Additive.mat using Guid(e745ab8d859d17441ac06702807cdb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788f5f6f1d06a84aadf16d75ec0d61b4') in 0.160814 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/FX/FX_Dark.mat
-  artifactKey: Guid(e7840cf13af848444978f16795ce1eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/FX/FX_Dark.mat using Guid(e7840cf13af848444978f16795ce1eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91cc5d22405edb308ec8fa59948b5b8') in 0.270096 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/FX/FX_Addivitve.mat
-  artifactKey: Guid(49fa84335db088c4dafac40a4d0743db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/FX/FX_Addivitve.mat using Guid(49fa84335db088c4dafac40a4d0743db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddae3d24f54067d05359922f9c61254c') in 0.018719 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/FX/FX_Empty.mat
-  artifactKey: Guid(4a510922e9567b74dab4331253bde1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/FX/FX_Empty.mat using Guid(4a510922e9567b74dab4331253bde1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220fa86cd00489d9378ddce33316068a') in 0.200699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/FX/FX_Circle.mat
-  artifactKey: Guid(d2b99b1f66c175e49957d6cb494d9898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/FX/FX_Circle.mat using Guid(d2b99b1f66c175e49957d6cb494d9898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3dab00ce1810407a8459885cb41df1') in 0.013089 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000470 seconds.
-  path: Assets/PolygonSciFiWorlds/Materials/FX/Scrap_Transparent_Mat.mat
-  artifactKey: Guid(e427e5a8a82bbe44f991b3ff2276a143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiWorlds/Materials/FX/Scrap_Transparent_Mat.mat using Guid(e427e5a8a82bbe44f991b3ff2276a143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e741fd90ff066ffcbb663f08139aef98') in 1.154686 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 20.234014 seconds.
-  path: Assets/Music/Destractor.mp3
-  artifactKey: Guid(7375cf4d81cd33b4ba836691e64303dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Destractor.mp3 using Guid(7375cf4d81cd33b4ba836691e64303dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33173ff4f0a6c7415d895dbe19e36d40') in 2.263094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Music/Your personal heaven.mp3
-  artifactKey: Guid(119c0f14654addb4083e32de4025a82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Your personal heaven.mp3 using Guid(119c0f14654addb4083e32de4025a82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e923deb55b11079feba914b7b73e53') in 0.749372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Music/Laser Millenium.mp3
-  artifactKey: Guid(5e4f5c624558a9543afeda42cbd9c4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Laser Millenium.mp3 using Guid(5e4f5c624558a9543afeda42cbd9c4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c766433c1e3ac91f9b058e345901e648') in 1.801457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Music/Nightwind.mp3
-  artifactKey: Guid(d41caae7a3746d8429f097e6631fdd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Nightwind.mp3 using Guid(d41caae7a3746d8429f097e6631fdd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf54dd770f684488a8df4bc707d97e3') in 1.040377 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Music/Heart open.mp3
-  artifactKey: Guid(3d3a8bcc680b1f54bbdca4b847256937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Heart open.mp3 using Guid(3d3a8bcc680b1f54bbdca4b847256937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283f2a1a9ab1701555f3b8ca4a0ac038') in 1.682732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Music/Disco Century.mp3
-  artifactKey: Guid(f991c4674a420954eb79018620f8a756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Disco Century.mp3 using Guid(f991c4674a420954eb79018620f8a756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e38f7792c738e37f5ee247ca418b8a6') in 1.133488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 13
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

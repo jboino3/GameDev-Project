@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731704, g: 0.1341472, b: 0.121078566, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731722, g: 0.13414752, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3283,23 +3283,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Controls -
-
-    Use arrow buttons to move the sphere in any direction.
-
-    Move
-    mouse to change camera angle.
-
-    Use the spacebar to jump onto certain platforms
-    and to make jumps.
-
-
-    Goal- Collect keys in order to make it past gates and
-    to traverse platforms to get to the end of the levels.
-
-
-    The faster the time,
-    the better you are.'
+  m_Text: "Controls -\nUse WASD to control the sphere. Use your mouse to control
+    the camera.\nUse SPACE to jump.\n\nGoal- \nLevel 1: Search buildings to find
+    a green key in order to make it past the gate. \nLevel 2: Traverse through an
+    obstacle course, working around moving platforms, falling tiles, and teleporters.\nLevel
+    3: Take advantage of springboards and launchers to cross gaps. Make sure to dodge
+    harmful lasers.\n\nThe faster your time, the better you are!"
 --- !u!222 &2061417824
 CanvasRenderer:
   m_ObjectHideFlags: 0
