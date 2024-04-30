@@ -1,0 +1,308 @@
+Unity Editor version:    2022.3.21f1 (bf09ca542b87)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2.1 (Build 23C71)
+Darwin version:          23.2.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/lukeswanson/Documents/GitHub/GameDev-Project/GameDevProject4
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54139
+Successfully changed project path to: /Users/lukeswanson/Documents/GitHub/GameDev-Project/GameDevProject4
+/Users/lukeswanson/Documents/GitHub/GameDev-Project/GameDevProject4
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8736260672] Host "[IP] 192.168.1.84 [Port] 0 [Flags] 2 [Guid] 3540743992 [EditorId] 3540743992 [Version] 1048832 [Id] OSXEditor(0,Lukes-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8736260672] Host "[IP] 192.168.1.84 [Port] 0 [Flags] 2 [Guid] 3540743992 [EditorId] 3540743992 [Version] 1048832 [Id] OSXEditor(0,Lukes-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 38.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/lukeswanson/Documents/GitHub/GameDev-Project/GameDevProject4/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56673
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.007062 seconds.
+- Loaded All Assemblies, in  0.855 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.313 seconds
+Domain Reload Profiling: 2171ms
+	BeginReloadAssembly (311ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (196ms)
+	LoadAllAssembliesAndSetupDomain (257ms)
+		LoadAssemblies (308ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (221ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1316ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1129ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (28ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (784ms)
+			ProcessInitializeOnLoadMethodAttributes (269ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.727 seconds
+Refreshing native plugins compatible for Editor in 8.44 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.889 seconds
+Domain Reload Profiling: 4626ms
+	BeginReloadAssembly (478ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (75ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (158ms)
+	LoadAllAssembliesAndSetupDomain (1012ms)
+		LoadAssemblies (768ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (441ms)
+			TypeCache.Refresh (347ms)
+				TypeCache.ScanAssembly (306ms)
+			ScanForSourceGeneratedMonoScriptInfo (78ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2892ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (1694ms)
+			ProcessInitializeOnLoadMethodAttributes (451ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 1.22 seconds
+Refreshing native plugins compatible for Editor in 22.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4448 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (141.4 KB). Loaded Objects now: 4887.
+Memory consumption went from 167.2 MB to 167.0 MB.
+Total: 45.110291 ms (FindLiveObjects: 2.740000 ms CreateObjectMapping: 0.652792 ms MarkObjects: 38.634500 ms  DeleteObjects: 3.080541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1021438.467985 seconds.
+  path: Assets/PolygonSciFiWorlds/Materials/FX
+  artifactKey: Guid(c83a9953714044440b1562a8559be803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Materials/FX using Guid(c83a9953714044440b1562a8559be803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d62608605929f8d1dfc0dd765b76df') in 0.032699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/PolygonSciFiWorlds/Materials/FX/FX_Additive_Bright.mat
+  artifactKey: Guid(a087149ebbb2cdd459821aa3cc458a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Materials/FX/FX_Additive_Bright.mat using Guid(a087149ebbb2cdd459821aa3cc458a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4df5ffabeb2ba30f46a6917820f155') in 1.273155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/PolygonSciFiWorlds/Materials/FX/FX_Hologram_Sign_Mat.mat
+  artifactKey: Guid(8431fcffbb1d5714baa450498f2c1384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Materials/FX/FX_Hologram_Sign_Mat.mat using Guid(8431fcffbb1d5714baa450498f2c1384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459dbdc8b8a1e3594acaf8b5ce53d9db') in 1.159533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.247703 seconds.
+  path: Assets/PolygonSciFiWorlds/Textures
+  artifactKey: Guid(4463fc48a8c049d4b9ed3f081d8be69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Textures using Guid(4463fc48a8c049d4b9ed3f081d8be69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b0bd56d0e456027e87b024c010f459') in 0.001383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.037441 seconds.
+  path: Assets/PolygonSciFiWorlds/Textures/Misc
+  artifactKey: Guid(3818995d01f776544bf70bc79afc627c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiWorlds/Textures/Misc using Guid(3818995d01f776544bf70bc79afc627c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7946930716d3e459d76d730ef0c2233') in 0.000849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.314792 seconds.
+  path: Assets/Music/Burn In Space.mp3
+  artifactKey: Guid(25ba6ee79ee385942ae8641f0355a85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Burn In Space.mp3 using Guid(25ba6ee79ee385942ae8641f0355a85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c7421d5fdd399bae06131e5bf24a66') in 1.690410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Music/Jump to win.mp3
+  artifactKey: Guid(a58a1eadd235504419eeeba77034b0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Jump to win.mp3 using Guid(a58a1eadd235504419eeeba77034b0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878e05b2d1515d6f34c341c636b59e31') in 1.596613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Music/Fractal.mp3
+  artifactKey: Guid(fcec7648eb6f34447813ff2e201e9baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Fractal.mp3 using Guid(fcec7648eb6f34447813ff2e201e9baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2580c9511947c9c656bca63566c8691') in 1.328278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Music/Twilight.mp3
+  artifactKey: Guid(2df6d588f3198a542b570054fc4a7b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Twilight.mp3 using Guid(2df6d588f3198a542b570054fc4a7b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3610466a88de72692b34846c32005c8a') in 1.662605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Music/System Shock.mp3
+  artifactKey: Guid(0db668f1731410340945940f0315ddda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/System Shock.mp3 using Guid(0db668f1731410340945940f0315ddda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bd6ac90918c1b17fae888859e58dc4') in 0.904382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Music/Warrior Song.mp3
+  artifactKey: Guid(948a01972ef1b2843ba616d66e0631c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Warrior Song.mp3 using Guid(948a01972ef1b2843ba616d66e0631c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1999fa2f1ed5602bc78e879a161c78c') in 1.471980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 70.443557 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7152936538c28518c921c8e3d56ceb') in 0.027367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 59.138974 seconds.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(8e82c7e733bbc584bb0787725c2d0607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2.unity using Guid(8e82c7e733bbc584bb0787725c2d0607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1492599e90a030af621e0dd3276049a') in 0.031476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.968978 seconds.
+  path: Assets/Scenes/level 3.unity
+  artifactKey: Guid(8c98c166405329e4db4841445497fe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level 3.unity using Guid(8c98c166405329e4db4841445497fe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e47d063bc26f3b5f19396484ddb0c8a') in 0.004021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 42.774441 seconds.
+  path: Assets/Scenes/Title.unity
+  artifactKey: Guid(77841061b3b40d441913a2f61cce164b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title.unity using Guid(77841061b3b40d441913a2f61cce164b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766de33654d4d882635ab4c79e2b61a6') in 0.016885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

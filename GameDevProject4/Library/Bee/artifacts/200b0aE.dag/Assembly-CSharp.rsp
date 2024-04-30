@@ -107,7 +107,6 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -398,6 +397,7 @@
 "Assets/rotation.cs"
 "Assets/Scripts/MenuImage.cs"
 "Assets/Scripts/MenuScript.cs"
+"Assets/Scripts/TimerScript.cs"
 "Assets/test.cs"
 "Assets/ThirdPersonCam.cs"
 "Assets/TP1.cs"
