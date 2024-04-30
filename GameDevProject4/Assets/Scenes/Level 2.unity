@@ -1868,19 +1868,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0783e645f12d4734db4601dd4b902838, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -51.36
+      value: -51.124268
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0783e645f12d4734db4601dd4b902838, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -306.36
+      value: -305.84
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0783e645f12d4734db4601dd4b902838, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -117.78
+      value: -117.71848
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0783e645f12d4734db4601dd4b902838, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.82982266
+      value: 0.8545031
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0783e645f12d4734db4601dd4b902838, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1888,7 +1888,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0783e645f12d4734db4601dd4b902838, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.55802727
+      value: 0.51944625
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0783e645f12d4734db4601dd4b902838, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1900,7 +1900,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0783e645f12d4734db4601dd4b902838, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 67.839
+      value: 62.59
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0783e645f12d4734db4601dd4b902838, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -4374,6 +4374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 840b14e6d1193450dbf30aada00943df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: Title
 --- !u!1 &1798639461 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: 0de047586d10a7747a9562436cf90c4f, type: 3}
