@@ -15006,6 +15006,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Corp_Loading_Bay_01
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f0d27caf4ab699445b5db95c307b7540, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: f0d27caf4ab699445b5db95c307b7540, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: f0d27caf4ab699445b5db95c307b7540, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: f0d27caf4ab699445b5db95c307b7540, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: f0d27caf4ab699445b5db95c307b7540, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: f0d27caf4ab699445b5db95c307b7540, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f0d27caf4ab699445b5db95c307b7540, type: 3}
       propertyPath: m_LocalPosition.x
       value: 244.96024
@@ -23664,7 +23688,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633377685}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.16618013, y: 1e-45, z: -0, w: 0.9860954}
+  m_LocalRotation: {x: 0.16618013, y: -1e-45, z: -0, w: 0.9860954}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -24553,6 +24577,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Corp_Generator_01
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1ff15ecbd988c974a8ab049a4b3fd7a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 1ff15ecbd988c974a8ab049a4b3fd7a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 1ff15ecbd988c974a8ab049a4b3fd7a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1ff15ecbd988c974a8ab049a4b3fd7a9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 274.27023
@@ -25384,6 +25420,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 48e4cc536db1bc94aafdcd111e5ab891, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Corp_Barracks_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 48e4cc536db1bc94aafdcd111e5ab891, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 48e4cc536db1bc94aafdcd111e5ab891, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27370,6 +27410,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 48e4cc536db1bc94aafdcd111e5ab891, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Corp_Barracks_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 48e4cc536db1bc94aafdcd111e5ab891, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 48e4cc536db1bc94aafdcd111e5ab891, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40617,7 +40661,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080022764}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.14326225, y: 0.000000008514446, z: -0.0000000012325124, w: 0.98968476}
+  m_LocalRotation: {x: 0.14326225, y: -0.000000009170555, z: 0.0000000013274878, w: 0.98968476}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -53593,6 +53637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Corp_Barracks_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 48e4cc536db1bc94aafdcd111e5ab891, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 48e4cc536db1bc94aafdcd111e5ab891, type: 3}
       propertyPath: m_LocalPosition.x
       value: 227.29022
@@ -62467,6 +62515,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Pod_Research_03
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 08da5995901a2594182c323fe42f4453, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 08da5995901a2594182c323fe42f4453, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08da5995901a2594182c323fe42f4453, type: 3}
       propertyPath: m_LocalPosition.x
       value: 287.94867
@@ -67890,7 +67946,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764834781}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.18910751, y: 0.000000008447955, z: -0.0000000016269276, w: 0.9819564}
+  m_LocalRotation: {x: 0.18910751, y: -0.000000018086508, z: 0.0000000034831427, w: 0.9819564}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -69648,6 +69704,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 48e4cc536db1bc94aafdcd111e5ab891, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Corp_Barracks_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 48e4cc536db1bc94aafdcd111e5ab891, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 48e4cc536db1bc94aafdcd111e5ab891, type: 3}
       propertyPath: m_LocalPosition.x
@@ -72037,6 +72097,18 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 698c3a14174d61d4a8f74c69142e05a0, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Corp_Comms_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 698c3a14174d61d4a8f74c69142e05a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 698c3a14174d61d4a8f74c69142e05a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 698c3a14174d61d4a8f74c69142e05a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 698c3a14174d61d4a8f74c69142e05a0, type: 3}
       propertyPath: m_LocalPosition.x
